@@ -1,0 +1,26 @@
+To keep the server running, I made sure to add an "&" after the python command. <BR>
+This command ensured it would keep running even if I was not still in the instance. <BR>
+Specifically, the command I ran was <tt> sudo nohup python -m SimpleHTTPServer 80 </tt>
+<BR><BR>
+
+lpena.o output: <tt> rxvgc" </tt>
+<BR><BR>
+
+lpena_proc_fun.txt: <BR>
+1. located in /proc/sys/kernel/version
+   #62-Ubuntu SMP Wed Feb 27 22:25:11 UTC 2013
+
+2. located in /proc/filesystems
+   ext3 is supported and it is mounted on a device
+
+3. located in /proc/swaps
+   size: 1046524
+
+4. located in /proc/12799/cmdline (found by sshing into eniac in the background and running ps)
+   command: ssheniac
+
+5. located in /proc/12812/cmdline
+   command: /usr/lib/firefox/firefox
+
+6. located in /proc/cpuinfo
+   cpu MHz : 2691.319
